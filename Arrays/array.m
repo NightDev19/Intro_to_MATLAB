@@ -25,5 +25,8 @@ I = A * inv(A)
 
 % To Format it into long integer
 
-format long 
+format long % For format long integer 
+%{
+You can also use "short" for short format 
+%}
 P = A * inv(A)
