@@ -14,3 +14,16 @@ z = zeros(5,1)
 arr3D + 10
 
 sin(arr3D)
+
+% Transpose the matrix using '
+arr3D'
+
+% Standard Multiplication using inv()
+
+A = [2,1,1;1,2,1;1,1,2;]
+I = A * inv(A)
+
+% To Format it into long integer
+
+format long 
+P = A * inv(A)
