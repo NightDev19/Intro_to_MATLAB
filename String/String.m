@@ -12,4 +12,14 @@ disp(sampleString2)
 farenheit = 120;
 celcius = (farenheit-32)/1.8;
 tempString = sprintf("The Temperature is : %.2fC", celcius);
-disp(tempString)
+disp(tempString) 
+
+% Data Characters 
+disp(" ")
+dnaSeq1 = 'GCTAGAATCC';
+whos  dnaSeq1; % check the variable data 
+
+% Concat of two Data Characters 
+
+dnaSeq2 = [dnaSeq1 , 'ATTAGAAACC'];
+disp(dnaSeq2);
