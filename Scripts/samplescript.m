@@ -7,3 +7,7 @@ axis equal              % Use the same scale for each axis.
 % Find the surface area and volume.
 A = 4*pi*r^2;
 V = (4/3)*pi*r^3;
+
+% Display results in the Command Window
+fprintf('Surface area: %.2f\n', A);
+fprintf('Volume: %.2f\n', V);
