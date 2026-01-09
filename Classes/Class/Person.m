@@ -11,6 +11,7 @@ classdef Person
                 self.Age = age;
             end
         end
+        % Functions for the actions or methods of the Class itself
         function greet(self)
             fprintf('Hello my name is %s, and my age is %d \n', self.Name , self.Age)
         end
