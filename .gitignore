@@ -2,3 +2,7 @@
 *.asv
 
 *.db
+
+/slprj/sim/varcache/linear_equation/
+
+*.slxc
