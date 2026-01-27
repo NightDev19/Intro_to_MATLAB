@@ -30,7 +30,7 @@ disp('First three elements in the first column:');
 disp(firstColumnSlice); % Result: 1, 5, 9
 
 % Extract first two elements from the first row
-firstRowSlice = sampleMatrix(1, 1:2);
+firstRowSlice = sampleMatrix(1,1:2);
 disp('First two elements in the first row:');
 disp(firstRowSlice); % Result: 1, 2
 
