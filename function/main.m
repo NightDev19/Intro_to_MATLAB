@@ -1,11 +1,5 @@
 clc; clear;
 
-% Define the callback function handle
-readyCallback = @callback;
-
-% Start making coffee
-makeCoffee(readyCallback);
-
 % -----------------------------
 % Local function inside main.m
 function makeCoffee(callbackFunc)
@@ -15,3 +9,11 @@ function makeCoffee(callbackFunc)
     % Call the callback when done
     callbackFunc();
 end
+
+
+% Define the callback function handle
+readyCallback = @callback;
+
+% Start making coffee
+makeCoffee(readyCallback);
+
