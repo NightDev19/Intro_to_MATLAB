@@ -6,9 +6,9 @@ b = 10;
 k = 20;
 
 % Defining PID Control Parameter
-Kp = 350;
-Ki = 300;
-Kd = 50;
+Kp = 1000;
+Ki = 0;
+Kd = 0;
 
 % Capture simulation output explicitly
 out = sim("Intro_to_MATLAB/Simulations/Intro_To_Simulink/Dampler_System_with_PID");
