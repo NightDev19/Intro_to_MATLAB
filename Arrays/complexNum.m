@@ -8,13 +8,13 @@ disp(complexSum)              % Result: 3 + 6i
 
 % Example 2: Multiplication of imaginary units
 % i * j = (sqrt(-1)) * (sqrt(-1)) = -1
-imaginaryProduct = i * j;
+imaginaryProduct = 1i * 1i;
 disp(imaginaryProduct)        % Result: -1 (real number)
 
 % Example 3: Squaring imaginary units
 % (sqrt(-1))^2 = -1
-imaginarySquared_i = i^2;
-imaginarySquared_j = j^2;
+imaginarySquared_i = 1i^2;
+imaginarySquared_j = 1i^2;
 disp(imaginarySquared_i)      % Result: -1
 disp(imaginarySquared_j)      % Result: -1
 
