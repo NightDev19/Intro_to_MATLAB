@@ -22,11 +22,13 @@ disp(arr3D');
 
 A = [2,1,1;1,2,1;1,1,2;];
 I = A * inv(A);
-
+disp(I);
 % To Format it into long integer
 
-format long % For format long integer 
+
 %{
 You can also use "short" for short format 
 %}
+format long % For format long integer 
 P = A * inv(A);
+disp(P)
